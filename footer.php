@@ -8,7 +8,7 @@
       </div>
       <div class="col-6 col-md">
 
-<h5>Page Links</h5>
+        <h5>Page Links</h5>
         <?php
         wp_nav_menu();
         ?>

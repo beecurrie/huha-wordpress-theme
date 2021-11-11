@@ -18,18 +18,40 @@ Tags: contemporary, animals
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+body {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
 .frontpage-container {
+  margin-left: 500px;
+}
+
+h1 {
   margin-left: 500px;
 }
 
 
 
 nav {
+  text-transform: uppercase;
   position: fixed;
   padding: 10px;
   display: block;
   width: 22.5vw !important;
   height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navPages {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: 30px 30px 30px -30px;
 }
 
 #logo {
@@ -41,8 +63,16 @@ h5 {
   color: #ee5625
 }
 
-#dogHeader {
+.frontpage-header {
+  position: relative;
   margin-left: 417px;
-  height: 50%;
-  width: 50%;
+  height: 200px;
+  width: 100%;
+}
+
+#dogHeader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
